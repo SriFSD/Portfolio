@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Laxmi Godara Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <style>
+   html {
+      scroll-behavior: smooth;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .fade-in-up {
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="bg-gradient-to-br from-gray-100 via-white to-gray-200 text-gray-900 font-sans font-[Poppins]">
+  <!-- Navbar -->
+  <header class="fixed w-full bg-white shadow z-50">
+   <nav class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-blue-700">
+     Laxmi Godara
+    </h1>
+    <ul class="flex space-x-4 text-sm font-medium list-none">
+     <li>
+      <a class="hover:text-blue-600 transition" href="#home">
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-blue-600 transition" href="#projects">
+       Project
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-blue-600 transition" href="#skills">
+       Skills
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-blue-600 transition" href="#education">
+       Education
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-blue-600 transition" href="#strengths">
+       Strengths
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-blue-600 transition" href="#achievements">
+       Achievements
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-blue-600 transition" href="#contact">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <!-- Home -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-6 from-blue-50 via-white to-blue-100 bg-gradient-to-r from-pink-100 to-blue-100" id="home">
+   <h2 class="text-4xl font-bold mb-3 text-blue-800 fade-in-up">
+    Hi, I'm Laxmi Godara 👋
+   </h2>
+   <p class="text-lg mb-4 fade-in-up">
+    Full Stack Developer (Fresher) | MERN Stack Enthusiast
+   </p>
+   <p class="max-w-2xl mb-6 text-gray-700 fade-in-up">
+    Passionate about building scalable, responsive web apps and solving real-world problems with clean code.
+   </p>
+   <div class="space-x-4 fade-in-up">
+    <a class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-900 transition shadow-md hover:shadow-lg" download="" href="Lax_SinglePageResume.pdf">
+     <i class="fas fa-download mr-2">
+     </i>
+     Download Resume
+    </a>
+    <a class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition shadow-md hover:shadow-lg" href="#contact">
+     Contact Me
+    </a>
+   </div>
+  </section>
+  <!-- Projects -->
+  <section class="h-screen px-6 py-10 flex flex-col justify-center items-center bg-gradient-to-r from-blue-100 to-green-100" id="projects">
+   <h2 class="text-3xl font-bold mb-6 text-blue-800 fade-in-up">
+    Project
+   </h2>
+   <div class="bg-white/80 backdrop-blur-md p-6 rounded-lg shadow-xl max-w-3xl transition-all transform hover:scale-105 fade-in-up">
+    <h3 class="text-xl font-semibold mb-2 text-blue-700 font-bold text-blue-800">
+     Inventory &amp; Finance Management App
+    </h3>
+    <p class="mb-3 text-gray-800">
+     A complete web application for wholesale fertilizer and manure shops, adaptable to other small-to-medium businesses.
+    </p>
+    <ul class="pl-6 text-sm mb-3 text-gray-700 list-none">
+     <li>
+      <i class="fas fa-check text-blue-600 mr-2 text-sm">
+      </i>
+      Responsive design with Tailwind CSS
+     </li>
+     <li>
+      <i class="fas fa-check text-blue-600 mr-2 text-sm">
+      </i>
+      Modules for inventory, suppliers, invoicing, and reporting
+     </li>
+     <li>
+      <i class="fas fa-check text-blue-600 mr-2 text-sm">
+      </i>
+      Dynamic GST and multi-unit stock handling
+     </li>
+    </ul>
+   </div>
+   <div class="bg-white p-6 rounded-lg shadow-lg mt-6 max-w-4xl mx-auto">
+    <div class="flex flex-wrap justify-center gap-6 mt-6 text-sm text-gray-800">
+     <div class="flex items-center gap-1">
+      <i class="fas fa-layer-group text-purple-600 text-lg">
+      </i>
+      <strong class="font-semibold">
+       Stack:
+      </strong>
+      HTML, Tailwind CSS, JavaScript (Phase 1) → MERN (Phase 2)
+     </div>
+     <div class="flex items-center gap-1">
+      <i class="fab fa-github text-gray-900 text-lg">
+      </i>
+      <strong class="font-semibold">
+       GitHub:
+      </strong>
+      <a class="text-blue-600 underline hover:text-blue-800" href="https://github.com/lax-dev-example/inventory-app">
+       View Repo
+      </a>
+     </div>
+     <div class="flex items-center gap-1">
+      <i class="fas fa-globe text-green-700 text-lg">
+      </i>
+      <strong class="font-semibold">
+       Live Demo:
+      </strong>
+      <a class="text-blue-600 underline hover:text-blue-800" href="https://netlify.digiapp.com">
+       Open Site
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Skills -->
+  <section class="h-screen flex flex-col justify-center items-center px-6 py-10 from-white to-gray-200 bg-gradient-to-r from-yellow-100 to-pink-100" id="skills">
+   <h2 class="text-3xl font-bold mb-6 text-blue-800 fade-in-up">
+    <i class="fas fa-tools mr-2">
+    </i>
+    Skills
+   </h2>
+   <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 text-sm text-gray-800 fade-in-up">
+    <div class="bg-white/70 backdrop-blur-md p-4 rounded-lg shadow hover:scale-105 transition">
+     <i class="fas fa-database text-blue-600 mr-2">
+     </i>
+     MERN Stack
+    </div>
+    <div class="bg-white/70 backdrop-blur-md p-4 rounded-lg shadow hover:scale-105 transition">
+     <i class="fab fa-html5 text-orange-600 mr-2">
+     </i>
+     HTML/CSS/JS
+    </div>
+    <div class="bg-white/70 backdrop-blur-md p-4 rounded-lg shadow hover:scale-105 transition">
+     <i class="fab fa-github text-gray-800 mr-2">
+     </i>
+     Git &amp; GitHub
+    </div>
+    <div class="bg-white/70 backdrop-blur-md p-4 rounded-lg shadow hover:scale-105 transition">
+     <i class="fas fa-code text-blue-500 mr-2">
+     </i>
+     DSA
+    </div>
+    <div class="bg-white/70 backdrop-blur-md p-4 rounded-lg shadow hover:scale-105 transition">
+     <i class="fas fa-users text-green-600 mr-2">
+     </i>
+     Jira &amp; Teams
+    </div>
+    <div class="bg-white/70 backdrop-blur-md p-4 rounded-lg shadow hover:scale-105 transition">
+     <i class="fas fa-puzzle-piece text-purple-600 mr-2">
+     </i>
+     Open Source
+    </div>
+   </div>
+  </section>
+  <!-- Education -->
+  <section class="h-screen flex flex-col justify-center items-center px-6 py-10 bg-gradient-to-r from-indigo-100 to-purple-100" id="education">
+   <h2 class="text-3xl font-bold mb-6 text-blue-800 fade-in-up">
+    <i class="fas fa-graduation-cap mr-2">
+    </i>
+    Education
+   </h2>
+   <ul class="pl-6 text-sm space-y-2 text-gray-800 max-w-xl fade-in-up list-none">
+    <li>
+     <i class="fas fa-graduation-cap text-indigo-600 mr-2 text-sm">
+     </i>
+     B.Sc. (Computer Science), ABC Institute – 72%
+    </li>
+    <li>
+     <i class="fas fa-graduation-cap text-indigo-600 mr-2 text-sm">
+     </i>
+     Intermediate (MPC), XYZ Junior College – 75%
+    </li>
+    <li>
+     <i class="fas fa-graduation-cap text-indigo-600 mr-2 text-sm">
+     </i>
+     10th Standard (SSC), DEF High School – 85%
+    </li>
+   </ul>
+  </section>
+  <!-- Strengths -->
+  <section class="h-screen flex flex-col justify-center items-center px-6 py-10 bg-gradient-to-r from-red-100 to-yellow-100" id="strengths">
+   <h2 class="text-3xl font-bold mb-6 text-blue-800 fade-in-up">
+    <i class="fas fa-bolt mr-2">
+    </i>
+    Strengths
+   </h2>
+   <ul class="pl-6 text-sm space-y-2 text-gray-800 max-w-xl fade-in-up list-none">
+    <li>
+     <i class="fas fa-bolt text-orange-500 mr-2 text-sm">
+     </i>
+     Strong analytical and problem-solving ability
+    </li>
+    <li>
+     <i class="fas fa-bolt text-orange-500 mr-2 text-sm">
+     </i>
+     Team collaboration &amp; adaptability
+    </li>
+    <li>
+     <i class="fas fa-bolt text-orange-500 mr-2 text-sm">
+     </i>
+     Experience managing public-facing events
+    </li>
+    <li>
+     <i class="fas fa-bolt text-orange-500 mr-2 text-sm">
+     </i>
+     Proficient with project tools like Jira &amp; MS Teams
+    </li>
+   </ul>
+  </section>
+  <!-- Achievements -->
+  <section class="h-screen flex flex-col justify-center items-center px-6 py-10 bg-gradient-to-r from-teal-100 to-lime-100" id="achievements">
+   <h2 class="text-3xl font-bold mb-6 text-blue-800 fade-in-up">
+    <i class="fas fa-trophy mr-2">
+    </i>
+    Achievements
+   </h2>
+   <ul class="pl-6 text-sm space-y-2 text-gray-800 max-w-xl fade-in-up list-none">
+    <li>
+     <i class="fas fa-star text-yellow-500 mr-2 text-sm">
+     </i>
+     Indian Army selection test participant
+    </li>
+    <li>
+     <i class="fas fa-star text-yellow-500 mr-2 text-sm">
+     </i>
+     Organized a public book event
+    </li>
+    <li>
+     <i class="fas fa-star text-yellow-500 mr-2 text-sm">
+     </i>
+     Consistent contributor to open-source projects
+    </li>
+    <li>
+     <i class="fas fa-star text-yellow-500 mr-2 text-sm">
+     </i>
+     Regular participant in online coding challenges
+    </li>
+   </ul>
+  </section>
+  <!-- Contact -->
+  <section class="h-screen flex flex-col justify-center items-center px-6 py-10 from-blue-100 to-white bg-gradient-to-r from-amber-100 to-cyan-100" id="contact">
+   <h2 class="text-3xl font-bold mb-6 text-blue-800 fade-in-up">
+    <i class="fas fa-envelope mr-2">
+    </i>
+    Contact
+   </h2>
+   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-2 text-sm text-gray-800 text-left fade-in-up">
+    <div class="flex items-start gap-2">
+     <i class="fas fa-envelope text-blue-600 mt-1">
+     </i>
+     <strong class="font-semibold">
+      Email:
+     </strong>
+     lgodara285@gmail.com
+    </div>
+    <div class="flex items-start gap-2">
+     <i class="fas fa-phone text-green-600 mt-1">
+     </i>
+     <strong class="font-semibold">
+      Phone:
+     </strong>
+     9876543210
+    </div>
+    <div class="flex items-start gap-2">
+     <i class="fab fa-linkedin text-blue-700 mt-1">
+     </i>
+     <strong class="font-semibold">
+      LinkedIn:
+     </strong>
+     linkedin.com/in/laxmi-godara
+    </div>
+    <div class="flex items-start gap-2">
+     <i class="fab fa-github text-gray-900 mt-1">
+     </i>
+     <strong class="font-semibold">
+      GitHub:
+     </strong>
+     github.com/LaxmiGodara
+    </div>
+   </div>
+  </section>
+ </body>
+</html>
